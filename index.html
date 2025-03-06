@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="chatbot.js"></script>
+
+  <title>Simple chat</title>
+</head>
+<body>
+  <div id="chat">
+    <div id="chat-header">
+      <h3>Simple chat</h3>
+    </div>
+    <div id="chat-body">
+      <span>Simple chat</span>
+      <span>Simple chat</span>
+      <span>Simple chat</span>
+    </div>
+  </div>
+  <div id="chat-controller">
+    <input type="text" placeholder="Digite seu texto aqui..." id="type-ask">
+    <button id="submit-ask" onclick="sendMessage()">Enviar</button>
+  </div>
+</body>
+</html>

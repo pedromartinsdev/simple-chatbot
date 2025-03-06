@@ -1,0 +1,120 @@
+/* CSS reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html{
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+  background-color: #18181b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#chat {
+  height: 70%;
+  width: 90%;
+  border-radius: 16px;
+  background-color: #18181b;
+  border: solid #36353f 1px;
+}
+
+#chat-header{
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  border-radius: 16px 16px 0 0;
+  background-color: #232227;
+}
+
+#chat-header h3 {
+  color: #f1f1f1;
+}
+
+#chat-body{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: calc(100% - 4rem);
+  padding: 3rem;
+  gap: 0.5rem;
+  overflow: auto; 
+}
+
+#chat-body span {
+  background-color: #36353f;
+  color: #f1f1f1;
+  font-size: 12px;
+  padding: 1rem;
+  border-radius: 16px;
+}
+
+#chat-controller {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 10%;
+  margin-top: 4rem;
+}
+
+#type-ask{
+  width: 90%;
+  height: 6rem;
+  background-color: #232227;
+  border: solid 1px #36353f;
+  border-radius: 16px;
+  padding: 2rem;
+  color: #f1f1f1;
+}
+
+#submit-ask{
+  width: 9%;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #5645ee;
+  color: #f1f1f1;
+  font-weight: bold;
+  border: solid 1px #36353f;
+  border-radius: 16px;
+  font-size: 1.05rem;
+}
+
+#submit-ask:hover{
+  cursor: pointer;
+  background-color: #5645ee;
+  opacity: 80%;
+  transition: background-color 300ms ease, opacity 300ms ease;
+}
+
+
