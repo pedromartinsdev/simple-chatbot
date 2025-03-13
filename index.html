@@ -7,7 +7,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <script src="chatbot.js"></script>
 
   <title>Simple chat</title>
 </head>
@@ -17,14 +16,13 @@
       <h3>Simple chat</h3>
     </div>
     <div id="chat-body">
-      <span>Simple chat</span>
-      <span>Simple chat</span>
-      <span>Simple chat</span>
     </div>
   </div>
   <div id="chat-controller">
     <input type="text" placeholder="Digite seu texto aqui..." id="type-ask">
-    <button id="submit-ask" onclick="sendMessage()">Enviar</button>
+    <button id="submit-ask" onclick="sendMessage()" disabled>Enviar</button>
   </div>
+  <script src="chatbot.js"></script>
+
 </body>
 </html>
