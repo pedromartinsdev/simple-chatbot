@@ -77,7 +77,7 @@ O projeto consiste em um chatbot simples que responde a perguntas pré-definidas
       "qual é o jogo de tiro mais jogado atualmente?": "Depende da época, mas títulos como Call of Duty e Fortnite são populares.",
       "quem é o diretor de 'a origem' (inception)?": "Christopher Nolan.",
       "qual série de fantasia tem dragões e uma disputa por tronos?": "Game of Thrones."};
-
+```
 
 
 ## 📈 Próximos Passos
