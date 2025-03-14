@@ -78,6 +78,8 @@ O projeto consiste em um chatbot simples que responde a perguntas pré-definidas
       "quem é o diretor de 'a origem' (inception)?": "Christopher Nolan.",
       "qual série de fantasia tem dragões e uma disputa por tronos?": "Game of Thrones."};
 
+
+
 ## 📈 Próximos Passos
 - Melhorar a detecção de perguntas similares.
 - Adicionar mais respostas ao chatbot.
